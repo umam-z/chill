@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body class="login-page">
+  <form action="/login" method="post" class="card">
+    <div class="card-header">
+      <div class="logo">
+        <img src="assets/img/logo.svg" alt="Logo" class="logo-img">
+      </div>
+      <div>
+        <h2>Masuk</h2>
+        <p>Selamat datang kembali!</p>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required placeholder="Masukkan username" autocomplete="off">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required placeholder="Masukkan password">
+      </div>
+      <div class="login-link">
+        Belum punya akun? <a href="register.html">Daftar</a>
+      </div>
+    </div>
+    <div class="card-footer">
+      <button type="submit">Login</button>
+      <div class="atau-separator">Atau</div>
+      <button type="button" class="google-btn">
+        <img src="assets/img/google-icon.png" alt="Google" class="google-icon"> Masuk dengan Google
+      </button>
+    </div>
+  </form>
+</body>
+</html>
